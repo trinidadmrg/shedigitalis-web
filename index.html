@@ -5,6 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-MMNTDC5");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-ZCQ6CCCN00"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-ZCQ6CCCN00");
+    </script>
+
     <!-------- Links -------->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -22,9 +52,25 @@
 
     <!-------- Meta Data -------->
 
-    <title>Document</title>
+    <title>Inicio SheDigitalis</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="/images/brand/favicon.png"
+    />
   </head>
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-MMNTDC5"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <!-------- Banner -------->
 
     <!-------- Navbar -------->
@@ -59,6 +105,14 @@
             <li class="nav-item">
               <a
                 class="nav-link"
+                href="https://academia.shedigitalis.com"
+                target="0_blank"
+                >Cursos / Academia</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
                 target="0_blank"
                 href="http://blog.shedigitalis.com/"
                 >Blog</a
@@ -86,6 +140,25 @@
         </h6>
       </section>
       <section class="row">
+        <a
+          href="https://academia.shedigitalis.com/courses/crea-un-perfil-de-linkedin-exitoso"
+          target="0_Blank"
+        >
+          <img
+            src="/images/inicio/cursogratuitolinkedin.png"
+            class="novedadBanner"
+            alt="curso gratuito creación de perfil en linkedin"
+          />
+        </a>
+      </section>
+    </div>
+    <div class="pageContainer">
+      <section class="row">
+        <h2>¿Qué encontrarás?</h2>
+        <h6>
+          Recursos gratuitos, cursos, consejos, tips y el acceso a una hermosa
+          comunidad de mujeres con intereses similares a los tuyos.
+        </h6>
         <div
           id="carouselExampleSlidesOnly"
           class="carousel slide carrusel"
@@ -115,20 +188,9 @@
             </div>
           </div>
         </div>
-      </section>
-    </div>
-    <div class="pageContainer">
-      <section class="row">
-        <h2>¿Qué encontrarás?</h2>
-        <h6>
-          Recursos gratuitos, cursos (proximamente), consejos, tips y el acceso
-          a una hermosa comunidad de mujeres con intereses similares a los
-          tuyos.
-        </h6>
         <div class="spotifyList">
           <h3>
-            Aún estamos en proceso de construcción, pero mientras tanto te
-            invitamos a unirte a nuestra
+            Te invitamos a unirte a nuestra
             <a
               class="spotifyLink"
               href="https://open.spotify.com/playlist/1yfDk1rDa58CGcOa7zutLg?si=1b34c037e12c4489"
@@ -150,18 +212,18 @@
       </section>
     </div>
     <div class="pageContainer">
-      <h4>¡Encuentranos en Instagram!</h4>
-      <h6 class="center">
-        Hasta el lanzamiento de nuestros cursos, Instagram es donde estaremos
-        más activas compartiendo consejos y enseñanzas, ¡seguinos para no
-        perderte ninguna info!
-      </h6>
-      <a href="https://www.instagram.com/shedigitalis/" target="0_blank"
-        ><img
-          class="instagramLogo"
-          src="/images/inicio/instagrampink.png"
-          alt=""
-      /></a>
+      <h4>¡Encuentranos en nuestras redes!</h4>
+      <div class="containerRedes">
+        <a href="https://www.instagram.com/shedigitalis/" target="0_blank"
+          ><img class="logoredes" src="/images/inicio/logoinstagram.png" alt=""
+        /></a>
+        <a href="https://www.tiktok.com/@shedigitalis" target="0_blank"
+          ><img class="logoredes" src="/images/inicio/logotiktok.png" alt=""
+        /></a>
+        <a href="https://www.linkedin.com/company/shedigitalis" target="0_blank"
+          ><img class="logoredes" src="/images/inicio/logolinkedin.png" alt=""
+        /></a>
+      </div>
     </div>
 
     <!-------- Footer -------->
@@ -171,6 +233,11 @@
           <ul class="footerList">
             <li><a href="/index.html">Inicio</a></li>
             <li>
+              <a href="https://academia.shedigitalis.com" target="0_blank"
+                >Cursos / Academia</a
+              >
+            </li>
+            <li>
               <a href="http://blog.shedigitalis.com/" target="0_blank">Blog</a>
             </li>
             <li><a href="/pages/recursosgratis.html">Recursos Gratis</a></li>
@@ -178,7 +245,22 @@
         </div>
         <div class="col-6 d-flex justify-content-end">
           <a href="https://www.instagram.com/shedigitalis/"
-            ><img class="logoIg" src="/images/inicio/instagramwhite.png" alt=""
+            ><img
+              class="logosFooter"
+              src="/images/inicio/instagramwhite.png"
+              alt=""
+          /></a>
+          <a href="https://www.linkedin.com/company/shedigitalis"
+            ><img
+              class="logosFooter"
+              src="/images/inicio/linkedinwhite.png"
+              alt=""
+          /></a>
+          <a href="https://www.tiktok.com/@shedigitalis"
+            ><img
+              class="logosFooter"
+              src="/images/inicio/tiktokwhite.png"
+              alt=""
           /></a>
         </div>
       </div>
